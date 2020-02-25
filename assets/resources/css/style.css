@@ -1,0 +1,128 @@
+
+html,
+body {
+    background-color: #000;
+    color: #444;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+a:link,
+a:visited {
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: 0;
+}
+
+.hero-title { 
+	font-size: 5em; 
+	font-weight: 400; 
+ 	line-height: 1em;
+}
+
+span.city-text {
+	color: #444;
+}
+
+#particles-js {
+	width:100%;
+	height:100%;
+	position:fixed;
+	background:#000;
+}
+
+.hero-area {
+	min-height: 400px;
+	position: relative;
+	pointer-events: none;
+	background-size: 100% 100%;
+}
+
+/* --------------------------------------- */
+/* TYPE */
+/* --------------------------------------- */
+
+.hero-text { 
+    padding:200px 0 0 0;
+    min-height:215px;
+    color:#f39c12;
+    font-size:2.2em;
+    text-shadow:0px 1px 2px #333;
+    text-align:center;
+    
+}
+
+.hero-text .tagline {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+}
+
+.hero-text .aym {
+    color: #ecf0f1;
+}
+
+.tagline, .text {
+    text-transform: none;
+} 
+
+.tagline{
+    margin:20px 0 0;
+    font-size:1.7em;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    -webkit-transition:all 0.7s ease-in-out;
+    -moz-transition:all 0.7s ease-in-out;
+    -o-transition:all 0.7s ease-in-out;
+    -ms-transition:all 0.7s ease-in-out;
+    transition:all 0.7s ease-in-out
+}
+
+.sub-tagline {
+    margin:0;
+    font-size:.6em;
+    font-weight:normal;
+    text-transform:lowercase;
+    opacity:0;
+    color: #fff;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter:alpha(opacity=0);    
+    -webkit-transition:all 0.7s ease-in-out;
+    -moz-transition:all 0.7s ease-in-out;
+    -o-transition:all 0.7s ease-in-out;
+    -ms-transition:all 0.7s ease-in-out;
+    transition:all 0.7s ease-in-out
+}
+
+.show-text .tagline{margin:0}
+.show-text .sub-tagline{opacity:1}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.contact {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #dedede;
+}
